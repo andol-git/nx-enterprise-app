@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx nx build web --skip-nx-cache",
+  "buildCommand": "npm run vercel-build",
   "outputDirectory": "web/.next",
   "framework": "nextjs",
   "engines": { "node": ">=18" }

@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev -p 4300",
     "build": "nx build web",
-    "vercel-build": "npx nx build web",
+    "vercel-build": "npx nx build web  --skip-nx-cache",
     "start": "next start"
   },
   "dependencies": {
