@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev -p 4300",
     "build": "next build",
+    "vercel-build": "cd web && npm install && npm run build",
     "start": "next start"
   },
   "dependencies": {

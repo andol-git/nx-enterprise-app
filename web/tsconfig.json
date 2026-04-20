@@ -33,7 +33,7 @@
     "../web/.next/types/**/*.ts",
     "../dist/web/.next/types/**/*.ts",
     "next-env.d.ts",
-     "middleware.ts"  ],
+     "src/app/middleware.ts"  ],
   "exclude": [
     "out-tsc",
     "dist",
