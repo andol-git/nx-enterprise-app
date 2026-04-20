@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 4300",
-    "build": "next build",
+    "build": "nx build web",
     "vercel-build": "npx nx build web",
     "start": "next start"
   },
