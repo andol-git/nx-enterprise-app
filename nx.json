@@ -56,14 +56,15 @@
         "openTargetName": "open-cypress",
         "componentTestingTargetName": "component-test",
         "ciTargetName": "e2e-ci"
-      }
+      },
+      "exclude": ["web-e2e/**/*", "api-e2e/**/*"]
     },
     {
       "plugin": "@nx/jest/plugin",
       "options": {
         "targetName": "test"
       },
-      "exclude": ["api-e2e/**/*"]
+      "exclude": ["api-e2e/**/*", "web-e2e/**/*"]
     }
   ],
   "neverConnectToCloud": true,
