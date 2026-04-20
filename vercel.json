@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx nx build web",
+  "buildCommand": "npx nx build web --skip-nx-cache",
   "outputDirectory": "web/.next",
   "framework": "nextjs"
 }
