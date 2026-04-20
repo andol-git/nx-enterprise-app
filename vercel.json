@@ -1,6 +1,5 @@
 {
   "buildCommand": "npm run vercel-build",
   "outputDirectory": "web/.next",
-  "framework": "nextjs",
-  "engines": { "node": ">=18" }
+  "framework": "nextjs"
 }
